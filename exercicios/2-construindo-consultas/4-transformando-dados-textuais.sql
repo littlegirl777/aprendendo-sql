@@ -1,5 +1,8 @@
 -- Crie uma consulta que retorne as colunas CustomerId, FirstName, LastName e Address das pessoas consumidoras brasileiras
 
+Select CustomerID as ID, FirstName as Nome, LastName as Sobrenome, Address as Endereço
+from customers
+where country like 'Bra%';
 
 -- Na consulta anterior, converta o sobrenome para letras maiúsculas
 
